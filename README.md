@@ -51,7 +51,7 @@ getLocation(): Observable<GeolocationPosition>
 This method uses the latitude and longitude from the `GeolocationPosition` to obtain an array of periods representing the local weather forecast.
 
 ```typescript
-getForecast(latitude: number, longitude: number): Observable<Period[]>
+getForecast(position: GeolocationPosition): Observable<Period[]>
 ```
 
 ## Types Overview
