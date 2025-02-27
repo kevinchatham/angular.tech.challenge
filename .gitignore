@@ -1,5 +1,8 @@
 # See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 
+# Ignored because we aren't using npm ci / don't want to be bothered by non standard package registries
+package-lock.json
+
 # Compiled output
 /dist
 /tmp

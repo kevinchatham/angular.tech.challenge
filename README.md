@@ -14,7 +14,7 @@ On site load, the app should:
 
 1. Get the user's location.
 2. Obtain the weather forecast.
-3. Display the forecast, which should include the day of the week, temperature, and units.
+3. Display the forecast, which should include the name, temperature, and units.
 4. Use RXJS for services and Angular Signals for templates.
    - If you are unfamiliar with Angular Signals, please use RXJS and async pipe for the template layer.
 

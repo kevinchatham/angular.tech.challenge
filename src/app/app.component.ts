@@ -1,7 +1,5 @@
-import { Component, inject } from '@angular/core';
-import { WeatherService } from './services/weather.service';
+import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Period } from './types/period';
 
 @Component({
   selector: 'app-root',
@@ -10,5 +8,6 @@ import { Period } from './types/period';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  private _weatherService: WeatherService = inject(WeatherService);
+  // see services/weather.service.ts
+  // see types/period.d.ts
 }
